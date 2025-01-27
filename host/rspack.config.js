@@ -7,8 +7,8 @@ const config = withBaseRspack({
 }, true);
 
 config.module.rules.push({
-  test: /\.postcss$/,
-  type: 'postcss',
+  test: /\.css$/,
+  type: 'css',
   exclude: /node_modules\/|packages\/components/,
   use: [
     {
@@ -16,12 +16,7 @@ config.module.rules.push({
       options: {
         postcssOptions: {
           plugins: {
-            tailwindcss: {
-              config: join(
-                //context.context.root,
-                './tailwind.config.js'
-              ),
-            },
+            tailwindcss: {},
             autoprefixer: {},
           },
         },
