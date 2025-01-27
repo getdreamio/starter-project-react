@@ -12,7 +12,7 @@ const setupAuthentication = () => {
         post_logout_redirect_uri: process.env.OAUTH_POST_LOGOUT_URL || '',
         metadataUrl: process.env.OAUTH_WELL_KNOWN_URL || '',
         useFetchInterceptor: true,
-      } as DreamMFAuthConfig;
+    } as DreamMFAuthConfig;
 };
 
 export default setupAuthentication;

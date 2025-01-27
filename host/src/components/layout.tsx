@@ -11,7 +11,8 @@ const Layout = ({ children }) => {
             <h1 className="text-3xl">Dream.mf Starter</h1>
           </div>
           <nav className="flex space-x-4">
-            <Link to="/" className="hover:underline">Home</Link>
+          <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/login" className="hover:underline">Login</Link>
             <Link to="/about" className="hover:underline">About</Link>
             <Link to="/sample/45" className="hover:underline">Sample</Link>
           </nav>

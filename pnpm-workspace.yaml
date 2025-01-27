@@ -1,4 +1,4 @@
 packages:
   - host
-  - remotes/sample
-  - remotes/about
+  # - remotes/sample
+  # - remotes/about
