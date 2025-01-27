@@ -27,8 +27,6 @@
     "@types/react-router-dom": "5.3.3"
   },
   "scripts": {
-    "start-webpack": "webpack-cli serve",
-    "build-webpack": "webpack --mode production",
     "start": "rspack serve",
     "build": "rspack --mode production",
     "clean": "rm -rf dist"
