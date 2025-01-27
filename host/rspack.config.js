@@ -6,6 +6,7 @@ const config = withBaseRspack({
     federationConfig: { name: "container" }
 }, true);
 
+// Add tailwindcss support
 config.module.rules.push({
   test: /\.css$/,
   type: 'css',
