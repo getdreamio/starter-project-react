@@ -7,10 +7,10 @@ const config = withBaseRspack({
 }, true);
 
 config.module.rules.push({
-  test: /\.css$/,
-  type: 'css',
-  exclude: /node_modules\/|packages\/components/,
+  test: /.css$/,
   use: [
+    'style-loader',
+    'css-loader',
     {
       loader: 'postcss-loader',
       options: {

@@ -1,11 +1,11 @@
 const { withBaseRspack } = require("@dream.mf/bundlers");
 
 const config = withBaseRspack({
-	devServer: { port: 3010 },
+	devServer: { port: 3011 },
 	federationConfig: {
-		name: "remote_sample",
+		name: "remote_about",
 		exposes: {
-			"./SamplePage": "./src/_app"
+			"./AboutPage": "./src/_app"
 		},
 	},
 }, true);
