@@ -13,7 +13,7 @@ const About = () => {
           This project is a microfrontend architecture demonstration using Dream.mf. It showcases the integration of multiple remote modules into a single application, allowing for independent development and deployment of different parts of the application.
         </p>
         <br />
-        <h3 className="text-xl font-bold mb-2">DreaM Libraries</h3>
+        <h3 className="text-xl font-bold mb-2">Dream.mf Libraries</h3>
         <ul className="list-disc pl-5 mb-4">
           <li>Core - Import Remote and Runtime functionality (type DreamMF in console)</li>
           <li>OIDC - Authentication and user functionality</li>
