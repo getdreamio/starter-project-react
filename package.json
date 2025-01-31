@@ -13,6 +13,12 @@
 		"eslint": "^8.49.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
-		"typescript": "^5.2.2"
+		"typescript": "^5.2.2",
+		"@rspack/cli": "^1.1.5",
+		"@rspack/core": "^1.1.5",
+		"@rspack/dev-server": "1.0.9",
+		"@rspack/plugin-minify": "^0.7.5",
+		"@rspack/plugin-react-refresh": "^1.0.0",
+		"serve": "11.3.2"
 	}
 }
