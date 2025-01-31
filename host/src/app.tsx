@@ -7,17 +7,12 @@ import Layout from './components/layout';
 import "./assets/index.css";
 
 // Dream features & configuration
-import { setupRosRuntime } from '@dream.mf/ros';
 import { DreamMFLogListener } from '@dream.mf/logging';
 import setupLogging from './config/setup-logging';
 import { DreamMFAuthProvider } from "@dream.mf/oidc";
 import setupAuthentication from './config/setup-auth';
 
 const App = () => {
-
-  useEffect(() => {
-    setupRosRuntime(process.env.DREAM_ROS_API, process.env.DREAM_ROS_ACCESSKEY);
-  }, []);
 
   return (
     <BrowserRouter>
