@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Microfrontends | About</title>
+        <title>Dream.mf | About</title>
       </Helmet>
       <div>
         <h3 className="text-xl font-bold mb-2">Project Overview</h3>
