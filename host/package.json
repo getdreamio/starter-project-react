@@ -33,7 +33,8 @@
     "@rspack/core": "^1.1.5",
     "@rspack/dev-server": "1.0.9",
     "@rspack/plugin-minify": "^0.7.5",
-    "@rspack/plugin-react-refresh": "^1.0.0"
+    "@rspack/plugin-react-refresh": "^1.0.0",
+		"serve": "11.3.2"
   },
   "scripts": {
     "start": "rspack serve",
