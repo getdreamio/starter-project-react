@@ -19,6 +19,7 @@
 		"@rspack/dev-server": "1.0.9",
 		"@rspack/plugin-minify": "^0.7.5",
 		"@rspack/plugin-react-refresh": "^1.0.0",
-		"serve": "11.3.2"
+		"serve": "11.3.2",
+		"react-refresh": "~0.14.0"
 	}
 }
